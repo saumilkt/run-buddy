@@ -87,7 +87,7 @@ section {
     color: #024e76;
     border: solid 3px #024e76;
     position: absolute;
-    top: 120px;
+    top: 10px;
     right: 140px;
 }
 
@@ -178,4 +178,27 @@ h3 {
 
 .steps span {
     font-size: 38px;
+}
+
+.trainers {
+    text-align: center;
+}
+
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+
+.trainer img {
+    width: 35%;
+    float: left;
+}
+
+.trainer-bio {
+    padding: 35px;
+    width: 65%;
+    float: left;
 }
